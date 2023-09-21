@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100px;
+}
+.text h1{
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Sacramento', cursive;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    /* border: 2px solid rgb(255, 255, 255); borda do navbar */
+    padding: 5px 20px  5px 20px; 
+    /* padding: 20px;  top , right , bottom , left(Cima, esquerda ,baixo , direita)*/
+    border-radius: 10px; /* deixa borda curvada*/
+    background-color: rgba(0, 0, 0, 0.5); /*Rgba deixa transparente*/
+    color:white;
+}
+.menu ul li a.Link_ativo , .menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    
+}
+#home{
+background: linear-gradient(rgba(44,40,40,0.514),rgba(48,42,42,0.5)), url(./Foto/Fundo.marles.png);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+menu{
+    margin-right: 40vh;
+}
+header{
+    display: flex;
+    align-content: top;
+    padding-top: 20px;
+    justify-content:space-around;
+    /* separa o meio e as laterais */
+}
+#home main{
+    display: flex; 
+    height: 80%;
+    align-items: center;
+    /* align-items precisa de valor para ele poder mudar usando height */
+    justify-content: center;
+    /* ele localiza centro da tela */
+}
+.center_text h1{
+    font-size: 120px;
+}
