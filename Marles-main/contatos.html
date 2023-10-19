@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Marles Têxtil</title>
+
+    <link rel="shortcut icon" href="Foto/icon.marles.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="sobre">
+
+        <header>
+            <div class="text">
+                <img src="./Foto/icon.marles.png" class="logo">
+                <h1>Marles Têxtil</h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="./index.html">inicio</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#" class="Link_ativo">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <!-- required exibe uma mensagem de campo obrigatorio 
+
+             rows tamanho da blocos ou colunas 
+
+             maxlength limite de caracteres pode conter
+
+             Type são inputs 
+             button- criar botão
+              checkbox - Uma caixa de seleção
+             color - caixa de escolha de cor
+              date - campo para preencher a datas
+              email - campo verifica se o balor possuio o simbolo @
+             file - envio de arquivos
+             hidden - campo escondido 
+             image - envia imagens
+             nunber - adiciona somente  números
+             -->
+
+            <div class=tta>
+             <form action="#" method="get" id="info">
+
+                <label for="nome">Nome:</label>
+                <input type="text" maxlength="100" id="nome" name="nome">
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="assunto">
+                <br>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto">
+                <br>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                <br>
+
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        </main>
+    </section>
+
+
+
+</body>
+<script src="./script/contatos.js"></script>
+
+</html>
